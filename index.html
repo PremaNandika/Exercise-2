@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript exercise</title>
+    <link rel="stylesheet" href="css/style1.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="box">
+      <table class="calculator">
+        <tr>
+          <td colspan="4"><input type="text" id="layar" placeholder="0" readonly></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="button" name="button" class="ac" onclick="hit(this)">AC</button></td>
+          <td><button type="button" name="button" class="c" onclick="hit(this)">C</button></td>
+          <td><button type="button" name="button" class="tool" onclick="hit(this)">/</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">7</button></td>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">8</button></td>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">9</button></td>
+          <td><button type="button" name="button" class="tool" onclick="hit(this)">*</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">4</button></td>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">5</button></td>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">6</button></td>
+          <td><button type="button" name="button" class="tool" onclick="hit(this)">-</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">1</button></td>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">2</button></td>
+          <td><button type="button" name="button" class="num" onclick="hit(this)">3</button></td>
+          <td><button type="button" name="button" class="tool" onclick="hit(this)">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="button" name="button" class="numo" onclick="hit(this)">0</button></td>
+          <td><button type="button" name="button" class="tool" onclick="hit(this)">.</button></td>
+          <td><button type="button" name="button" class="tool" onclick="hit(this)">=</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
